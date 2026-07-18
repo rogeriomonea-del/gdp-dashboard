@@ -17,3 +17,10 @@ A simple Streamlit app showing the GDP of different countries in the world.
    ```
    $ streamlit run streamlit_app.py
    ```
+
+### Web data via Firecrawl
+
+This repo uses [Firecrawl](https://docs.firecrawl.dev) as its web-data layer
+(refreshing the GDP snapshot, in-app fetching, and monitoring the source for
+new releases). Setup, credentials (`.env.example`), and usage routing live in
+[FIRECRAWL.md](FIRECRAWL.md).
