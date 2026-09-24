@@ -1,2 +1,2 @@
-streamlit
-pandas
+streamlit~=1.64
+pandas~=3.0
